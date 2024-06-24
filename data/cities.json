@@ -1,0 +1,54 @@
+{
+  "cities": [
+    {
+      "cityName": "Pudukkottai",
+      "country": "Portugal",
+      "emoji": "PDKT",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+
+        "lat": 10.384046161249424,
+        "lng": 78.80008602909
+      },
+      "id": 73930385
+    },
+    {
+      "cityName": "Thanjavur",
+      "country": "India",
+      "emoji": "TNJ",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 10.78986334207467,
+        "lng": 79.13765484898671
+      },
+      "id": 17806751
+    },
+    {
+      "cityName": "Madurai",
+      "country": "India",
+      "emoji": "MDR",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 9.92841092336551,
+        "lng": 78.11994617018682
+      },
+      "id": 98443197
+    },
+    {
+      "cityName": "Chennai",
+      "country": "India",
+      "emoji": "CHN",
+      "date": "2023-04-03T07:47:59.202Z",
+      "notes": "",
+      "position": {
+
+        "lat": "13.091717241695436",
+        "lng": "80.2649154464585"
+      },
+      "id": 98443198
+    }
+  ]
+}
