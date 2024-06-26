@@ -4,7 +4,7 @@ const AuthContext = createContext();
 
 const initialState = {
   user: null,
-  isAuthenticated: false
+  isAuthenticated: false,
 };
 
 function reducer(state, action) {
@@ -22,7 +22,7 @@ const FAKE_USER = {
   name: "Bharani",
   email: "bharani.developer@gmail.com",
   password: "qwerty",
-  avatar: "https://bharani-dev.netlify.app/assets/images/webpage/bharani.webp"
+  avatar: "https://bharani-dev.netlify.app/assets/images/webpage/bharani.webp",
 };
 
 function AuthProvider({ children }) {

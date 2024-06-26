@@ -49,7 +49,7 @@ Check out a live demo of Worldwise: [Worldwise Demo](https://your-demo-url.com)
     npm run dev
     ```
 
-4. Open your browser and navigate to `http://localhost:3000`.
+4. Open your browser and navigate to `http://localhost:8080`.
 
 ## Usage
 
@@ -77,75 +77,117 @@ Once logged in, users can view a list of cities and states they have visited. Us
 
 ## Directory Structure
 
-project-root
-├── .eslintrc.json
-├── data
-│   └── cities.json
-├── directory_tree.txt
-├── index.html
-├── package.json
-├── package-lock.json
-├── public
-│   ├── bg.jpg
-│   ├── icon.png
-│   ├── img-1.jpg
-│   ├── img-2.jpg
-│   ├── logo.png
-│   └── vite.svg
-├── README.md
-├── src
-│   ├── App.jsx
-│   ├── components
-│   │   ├── AppNav.jsx
-│   │   ├── AppNav.module.css
-│   │   ├── BackButton.jsx
-│   │   ├── Button.jsx
-│   │   ├── Button.module.css
-│   │   ├── City.jsx
-│   │   ├── City.module.css
-│   │   ├── CityItem.jsx
-│   │   ├── CityItem.module.css
-│   │   ├── CityList.jsx
-│   │   ├── CityList.module.css
-│   │   ├── CountryItem.jsx
-│   │   ├── CountryItem.module.css
-│   │   ├── CountryList.jsx
-│   │   ├── CountryList.module.css
-│   │   ├── Form.jsx
-│   │   ├── Form.module.css
-│   │   ├── Logo.jsx
-│   │   ├── Logo.module.css
-│   │   ├── Map.jsx
-│   │   ├── Map.module.css
-│   │   ├── Message.jsx
-│   │   ├── Message.module.css
-│   │   ├── PageNav.jsx
-│   │   ├── PageNav.module.css
-│   │   ├── Sidebar.jsx
-│   │   ├── Sidebar.module.css
-│   │   ├── Spinner.jsx
-│   │   ├── Spinner.module.css
-│   │   ├── SpinnerFullPage.jsx
-│   │   └── SpinnerFullPage.module.css
-│   ├── contexts
-│   │   ├── CitiesContext.jsx
-│   │   └── FakeAuthContext.jsx
-│   ├── hooks
-│   │   ├── useGeolocation.js
-│   │   └── useUrlPosition.js
-│   ├── index.css
-│   └── main.jsx
-└── pages
-    ├── AppLayout.jsx
-    ├── AppLayout.module.css
-    ├── Homepage.jsx
-    ├── Homepage.module.css
-    ├── Login.jsx
-    ├── Login.module.css
-    ├── PageNotFound.jsx
-    ├── Pricing.jsx
-    └── Product.jsx
-        └── Product.module.css
++--- data
+    |   cities.json
++--- dist
+    +--- assets
+        |   AppLayout-a9e6818a.css
+        |   AppLayout-d3fb1271.js
+        |   Homepage-979407c7.js
+        |   Homepage-b9276e6f.css
+        |   index-ab0bf52d.js
+        |   index-d340e693.css
+        |   Login-e0d292b8.js
+        |   Login-f39ef3ff.css
+        |   Logo-21773e58.js
+        |   Logo-515b84ce.css
+        |   PageNav-54b9dcc4.js
+        |   PageNav-d3c5d403.css
+        |   PageNotFound-1a64b5ee.js
+        |   Pricing-85905c2c.js
+        |   Product.module-02d70b80.js
+        |   Product-cf1be470.css
+        |   Product-e67713a1.js
+    |   bg.jpg
+    |   bharani.jpg
+    |   icon.png
+    |   img-1.jpg
+    |   img-2.jpg
+    |   index.html
+    |   logo.png
+    |   vite.svg
+    |   worldwise1.png
+    |   worldwise2.png
+    |   worldwise3.png
+    |   worldwise4.png
+    |   worldwise5.png
++--- public
+    |   bg.jpg
+    |   bharani.jpg
+    |   icon.png
+    |   img-1.jpg
+    |   img-2.jpg
+    |   logo.png
+    |   vite.svg
+    |   worldwise1.png
+    |   worldwise2.png
+    |   worldwise3.png
+    |   worldwise4.png
+    |   worldwise5.png
++--- src
+    +--- components
+        |   AppNav.jsx
+        |   AppNav.module.css
+        |   BackButton.jsx
+        |   Button.jsx
+        |   Button.module.css
+        |   City.jsx
+        |   City.module.css
+        |   CityItem.jsx
+        |   CityItem.module.css
+        |   CityList.jsx
+        |   CityList.module.css
+        |   CountryItem.jsx
+        |   CountryItem.module.css
+        |   CountryList.jsx
+        |   CountryList.module.css
+        |   Form.jsx
+        |   Form.module.css
+        |   Logo.jsx
+        |   Logo.module.css
+        |   Map.jsx
+        |   Map.module.css
+        |   Message.jsx
+        |   Message.module.css
+        |   PageNav.jsx
+        |   PageNav.module.css
+        |   Sidebar.jsx
+        |   Sidebar.module.css
+        |   Spinner.jsx
+        |   Spinner.module.css
+        |   SpinnerFullPage.jsx
+        |   SpinnerFullPage.module.css
+        |   User.jsx
+        |   User.module.css
+    +--- contexts
+        |   CitiesContext.jsx
+        |   FakeAuthContext.jsx
+    +--- hooks
+        |   useGeolocation.js
+        |   useUrlPosition.js
+    +--- pages
+        |   AppLayout.jsx
+        |   AppLayout.module.css
+        |   Homepage.jsx
+        |   Homepage.module.css
+        |   Login.jsx
+        |   Login.module.css
+        |   PageNotFound.jsx
+        |   Pricing.jsx
+        |   Product.jsx
+        |   Product.module.css
+        |   ProtectedRoute.jsx
+    |   App.jsx
+    |   index.css
+    |   main.jsx
+|   .eslintrc.json
+|   directory_tree.txt
+|   index.html
+|   package.json
+|   package-lock.json
+|   README.md
+|   vite.config.js
+
 
 ## Dependencies
 
